@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Weather Dashboard</title>
+</head>
+
+<div>
+  <h1 id="Title">Your Weather Forecast</h1>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-3" id="citySearch">
+      <div class="card" id="locationOptions">
+        <div class="card-header">
+          <div class="form-group" method="POST" id="form-group" data-list="list">
+            <label for="inputdefault">Enter your city:</label>
+            <form class="example">
+              <input type="text" placeholder="City name" id="citySearchBar">
+              <button id="searchBtn" type="submit"><i class="fa fa-search">Search</i></button>
+            </form>
+          </div>
+          <h5 class="popularSearches">Your Cities</h5>
+          <ul id="userSearches"></ul>
+          &emsp;
+          <div class="span2">
+            <h5 class="popularCities">Popular Cities</h5>
+            <p><button class="btn btn-primary btn-block" id="Raleigh">Raleigh</button></p>
+            <p><button class="btn btn-primary btn-block" id="New York">New York City</button></p>
+            <p><button class="btn btn-primary btn-block" id="Dallas">Dallas</button></p>
+            <p><button class="btn btn-primary btn-block" id="San Francisco">San Francisco</button></p>
+            <p><button class="btn btn-primary btn-block" id="London">London</button></p>
+            <p><button class="btn btn-primary btn-block" id="Rome">Rome</button></p>
+            <p><button class="btn btn-primary btn-block" id="Moscow">Moscow</button></p>
+            <p><button class="btn btn-primary btn-block" id="Tokyo">Tokyo</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8" id="currentLocation">
+      <div class="card text-center" id="currentWeather">
+        <div class="card-header2" id="currentDay"></div>
+        <h3 class="city" id="city">City: </h3>
+        <img id="weatherIcon" class="weatherIcon"></img>
+        <h4 class="temp" id="temp">Temp: </h4>
+        <h4 class="humidity" id="humidity">Humidity: </h4>
+        <h4 class="windSpeed" id="windSpeed">Wind Speed: </h4>
+        <h4 class="uvIndex" id="uvIndex">UV Index: </h4>
+      </div>
+      <hr class="d-sm-none">
+      <div class="row-2">
+        <div class="col-sm-12" id="fiveDay">
+          <h5 class="fiveDayForecast">5 Day Forecast </h5>
+          <div class="card-deck">
+            <div class="card" id="cardTwo">
+              <div class="card-body">
+                <h4 id="dayTwo"></h4>
+                <p class="temp" id="tempTwo">Temp: </p>
+                <p class="humid" id="humidTwo">Humidity: </p>
+              </div>
+            </div>
+            <div class="card" id="cardThree">
+              <div class="card-body">
+                <h4 id="dayThree"></h4>
+                <p class="temp" id="tempThree">Temp: </p>
+                <p class="humid" id="humidThree">Humidity: </p>
+              </div>
+            </div>
+            <div class="card" id="cardFour">
+              <div class="card-body">
+                <h4 id="dayFour"></h4>
+                <p class="temp" id="tempFour">Temp: </p>
+                <p class="humid" id="humidFour">Humidity: </p>
+              </div>
+            </div>
+            <div class="card" id="cardFive">
+              <div class="card-body">
+                <h4 id="dayFive"></h4>
+                <p class="temp" id="tempFive">Temp: </p>
+                <p class="humid" id="humidFive">Humidity: </p>
+              </div>
+            </div>
+            <div class="card" id="cardSix">
+              <div class="card-body">
+                <h4 id="daySix"></h4>
+                <p class="temp" id="tempSix">Temp: </p>
+                <p class="humid" id="humidSix">Humidity:</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html> 

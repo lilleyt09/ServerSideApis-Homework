@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+    background-position: center center;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    height: 600px;
+    font-family: sans-serif;
+    background-position: top center !important;
+    background-size: cover;
+  }
+
+  h1 {
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    border-bottom: black;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+  }
+
+  #searchBtn {
+    background-color: blue; 
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer; 
+    width: flex;
+    display: block; 
+  }
+  
+  .col-md-8 {
+    color: white;
+    background-color: black;
+    height: 100%;
+    margin-top: 20px;
+    padding-top: 35px;
+    margin: 0 auto;
+  }
+  
+  .card-deck {
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  
+  #userSearch {
+    padding-top: 35px;
+    color: white; 
+    height: flex;
+    margin-left: 8px;
+  }
+  
+  .col-sm-12 {
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    height: flex;
+    padding-bottom: 20px;
+  }
+  
+  .list-group-item {
+    color: white;
+    background-color: black;
+  }
+  
+  .card {
+    background-color: black;
+    color: white;
+    border: 1px solid blue;
+  }
+  
+  .btn {
+    background-color: blue; 
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer; 
+    width: flex;
+    display: block;
+  }
+  
+  .btn:focus, .btn:active {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .btn:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    float: left;
+    width: 70%;
+    background: white;
+    border: none;
+  }
+  
+  form.example button {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    margin: 0px; 
+    background: blue;
+    border: none;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    color: white;
+    border: none;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .form-group {
+    text-align: left;
+  }
+  
+  .card-header2 {
+    background: blue;
+    padding-top: 10px;
+    height: 45px;
+  }
+  
+  .card-header3 {
+    padding-top: 10px;
+  }
+  
+  h5 {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  text-decoration: underline;
+  font-size: larger;
+  }
+  
+  .fiveDayForecast {
+    padding-top: 15px;
+  }
+  
+  .city {
+    padding-top: 20px;
+  }
+  
+  .uvIndex {
+    padding-bottom: 20px;  
+  }
+  
+  button {
+  border: blue;
+  background: black;
+  color: white;
+  margin: 1px;
+  }
+  
+  .button:focus, .button:active {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .temp {
+  margin: 0 auto;
+  text-align: center;
+  }
+  
+  .humid {
+    margin: 0 auto;
+    text-align: center;
+  }
